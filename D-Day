@@ -20,7 +20,7 @@ body{
   letter-spacing: 5px;
 }
 
-.days, .hours, .minutes, .seconds {
+.days, .hours, .minutes {
   display: inline-block;
   padding: 20px;
   width: 100px;
@@ -37,10 +37,6 @@ body{
 }
 
 .minutes {
-  background: #00462A;
-}
-
-.seconds {
   background: #00462A;
 }
 
@@ -125,8 +121,6 @@ let timer = setInterval(function() {
   document.getElementById("days").innerHTML=days
   document.getElementById("hours").innerHTML=hours
   document.getElementById("minutes").innerHTML=minutes
-  document.getElementById("seconds").innerHTML=seconds
-
 
 
 }, 1);
